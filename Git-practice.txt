@@ -1,1 +1,6 @@
 Git practice
+
+> git add [file name]
+> git add .
+> git commit
+> git rm [file name]
