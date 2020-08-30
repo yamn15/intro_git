@@ -4,4 +4,5 @@ Git practice
 > git add .
 > git commit
 > git rm [file name]
+> git status
 
