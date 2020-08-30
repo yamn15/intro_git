@@ -3,7 +3,6 @@ Git practice
 > git add [file name]
 > git add .
 > git commit
-> git rm [file name]
 > git status
 > git log
 # 一行で表示する
@@ -17,3 +16,20 @@ Git practice
     > git diff HEAD
 > git remote add origin https://github.com/yamn15/intro_git
 > git push origin master
+
+> gitignoreファイルの書き方
+# #から始まる行はコメント
+# 指定したファイルを除外
+    index.html
+#ルートディレクトリを指定
+    /root.html
+#ディレクトリ以下を除外
+    /dir
+
+#コミットしたファイルを管理から外す
+#ファイルも一緒に削除
+    > git rm [file name]
+#ディレクトリも一緒に削除
+    > git rm -r [file name]
+#ファイルは残す
+    > git rm --cached [file name]
