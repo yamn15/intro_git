@@ -6,7 +6,9 @@ Git practice
 > git rm [file name]
 > git status
 > git log
-> git log --oneline
-    # 一行で表示する
-> git log -p index.html
-    #ファイルの差分を表示する
+# 一行で表示する
+    > git log --oneline
+#ファイルの差分を表示する
+    > git log -p index.html
+#行数を指定してログを表示
+> git log -n 3
