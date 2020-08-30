@@ -12,3 +12,6 @@ Git practice
     > git log -p index.html
 #行数を指定してログを表示
 > git log -n 3
+> git diff
+#ステージとコミットの差分
+    > git diff HEAD
