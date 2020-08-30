@@ -16,3 +16,4 @@ Git practice
 #ステージとコミットの差分
     > git diff HEAD
 > git remote add origin https://github.com/yamn15/intro_git
+> git push origin master
