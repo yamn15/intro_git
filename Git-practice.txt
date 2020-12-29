@@ -20,6 +20,7 @@ HTML-CSS-Web_designs    https://github.com/yamn15/HTML-CSS-Web_designs.git (push
 > リモートリポジトリにプッシュする
 yamato-kawamura@DESKTOP-66AO107 MINGW64 ~/Desktop/programing/HTML-CSS-Webdesign/create-myself (master)
 $ git push -u HTML-CSS-Web_designs master
+
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads
