@@ -1,5 +1,37 @@
 Git practice
 
+> GitとGithubの連携方法
+yamato-kawamura@DESKTOP-66AO107 MINGW64 ~/Desktop/programing/HTML-CSS-Webdesign/create-myself (master)
+$ git remote add HTML-CSS-Web_designs https://github.com/yamn15/HTML-CSS-Web_designs.git
+
+
+> リモートリポジトリの確認方法
+yamato-kawamura@DESKTOP-66AO107 MINGW64 ~/Desktop/programing/HTML-CSS-Webdesign/create-myself (master)
+$ git remote
+HTML-CSS-Web_designs
+
+> リモートリポジトリのURL確認
+yamato-kawamura@DESKTOP-66AO107 MINGW64 ~/Desktop/programing/HTML-CSS-Webdesign/create-myself (master)
+$ git remote -v
+HTML-CSS-Web_designs    https://github.com/yamn15/HTML-CSS-Web_designs.git (fetch)
+HTML-CSS-Web_designs    https://github.com/yamn15/HTML-CSS-Web_designs.git (push)
+
+
+> リモートリポジトリにプッシュする
+yamato-kawamura@DESKTOP-66AO107 MINGW64 ~/Desktop/programing/HTML-CSS-Webdesign/create-myself (master)
+$ git push -u HTML-CSS-Web_designs master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.15 MiB | 520.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yamn15/HTML-CSS-Web_designs.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'HTML-CSS-Web_designs'.
+
+
+
 > git add [file name]
 > git add .
 > git commit
