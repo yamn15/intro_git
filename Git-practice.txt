@@ -84,3 +84,17 @@ git bash を開き、任意のディレクトリに移動する。
 
 git init
     Initialized empty Git repository in ~ が表示されていると成功する
+
+
+#　ファイル作成やローカルリポジトリへのコミットは、VScodeでやる
+
+＃ Pushする方法
+    VScodeがうまくいかなかった場合は、Git bashで下記コマンドを実施
+
+git remote add origin URL
+    git remote add origin https://github.com/yamn15/U_Python_Section9-demo.git
+
+git push origin master
+    User Name & Passwordを入力する（必要ない場合もある）
+
+Githubに反映されているかを確認する
