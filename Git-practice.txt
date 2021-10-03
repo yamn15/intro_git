@@ -66,3 +66,21 @@ Branch 'master' set up to track remote branch 'master' from 'HTML-CSS-Web_design
     > git rm -r [file name]
 #ファイルは残す
     > git rm --cached [file name]
+
+
+【how to create repository】
+https://www.sejuku.net/blog/70775
+
+
+# remort-repository
+https://github.com/yamn15 でレポジトリをつくる
+→作成後URLをコピーする
+
+
+# local repository
+git bash を開き、任意のディレクトリに移動する。
+下記コマンドを実行する
+
+
+git init
+    Initialized empty Git repository in ~ が表示されていると成功する
